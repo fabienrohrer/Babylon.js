@@ -5,4 +5,4 @@ services:
     build: .
     volumes:
       - .:/code
-    command: bash -c "cd Tools/Gulp && npm run build"
+    command: bash -c "cd Tools/Gulp && npm install && npm run build"
